@@ -1,0 +1,92 @@
+---
+---
+
+@import 'jekyll-theme-hacker';
+
+a {
+  color: #008099 !important;
+}
+
+.banner {
+  text-align: center;
+}
+
+.flyer {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+}
+
+//  Nav Styles
+
+nav {
+  display: block;
+  margin: auto;
+  width: 100%;
+  color: #008099 !important;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-image: none;
+  margin: 0;
+  min-width: 100%;
+  padding: 0;
+
+  li {
+    display: flex;
+    // margin: auto;
+    justify-content: flex-start;
+    list-style: none;
+    list-style-image: none;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #171717;
+  }
+
+  h2 {
+    margin: auto;
+  }
+}
+
+.nav-logo {
+  max-width: 100px;
+}
+
+//  Front Page Styles
+.main-logo {
+  margin: auto;
+}
+
+.splash {
+  text-align: center;
+
+  em {
+    display: block;
+    margin: 15px;
+  }
+}
+
+.post-body {
+  background-color: #333;
+  border: 1px dashed #b5e853;
+  display: block;
+  margin: auto;
+  padding: 15px;
+
+  img {
+    display: block;
+    margin: auto;
+    max-height: 600px;
+  }
+}
+
+// Roster table styles
+.rtable a {
+  margin-left: 0;
+  padding-left: 0;
+}
