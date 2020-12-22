@@ -39,7 +39,7 @@
     src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
 }
 body {
-    background: #fff;
+    background: #151515 url("../images/bkg.png") 0 0;;
     color: #777;
 }
 body #chapter h1 {
@@ -183,10 +183,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-size: 15px;
 }
 #sidebar a {
-    color: #ccc;
+    color: rgba(204, 204, 204, 0.323);
 }
 #sidebar a:hover {
-    color: #e6e6e6;
+    color: #e6e6e621;
 }
 #sidebar a.subtitle {
     color: rgba(204, 204, 204, 0.6);
@@ -404,7 +404,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #body .nav:hover {
-    background: #F6F6F6;
+    background: #f6f6f644;
 }
 #body .nav.nav-pref {
     left: 0;
@@ -437,7 +437,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #chapter p {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 #footer {
     padding: 3rem 1rem;
@@ -464,7 +464,8 @@ h1 {
     font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: #222;
+    font-weight: bold;
+    color: #b5e853;
     font-weight: 200;
 }
 blockquote {
@@ -719,7 +720,7 @@ td {
 .button:hover {
     background: #00a5d4;
     box-shadow: 0 3px 0 #008db6;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.186);
 }
 .button:active {
     box-shadow: 0 1px 0 #008db6;
@@ -988,7 +989,7 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
+    background: #252c31;
     border-radius: 2px;
     padding: 0 1rem;
     height: 0;
